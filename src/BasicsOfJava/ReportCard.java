@@ -9,6 +9,7 @@ static	Scanner in = new Scanner(System.in);
 		
 		ReportCard rc = new ReportCard();
 				int num=0;
+				System.out.println(num);
 				System.out.println("please enter the number of subjects = ");
 				num = in.nextInt();
 			int[]marks = new int[num];
